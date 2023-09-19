@@ -1,3 +1,4 @@
+import FifthSection from "./FifthSection";
 import FirstSection from "./FirstSection";
 import FourthSection from "./FourthSection";
 import SecondSection from "./SecondSection";
@@ -11,6 +12,7 @@ export default function Main() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FifthSection />
       <SixthSection />
     </>
   );

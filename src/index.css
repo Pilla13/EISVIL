@@ -266,7 +266,6 @@ summary::-webkit-details-marker {
   height: 160px;
 }
 
-
 .hover-button {
   position: absolute;
   top: 50%;
@@ -418,6 +417,121 @@ summary::-webkit-details-marker {
   max-width: 280px;
   max-height: 350px;
   margin: 0 auto;
+}
+
+/* ПЯТАЯ СЕКЦИЯ */
+
+.fifth_container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.relative_block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1400px;
+  height: 410px;
+}
+
+.triangle {
+  position: absolute;
+  background: url("./components/Main/FifthSection/img/rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 410px;
+  height: 410px;
+  z-index: 2;
+}
+
+.triangle h2 {
+  padding-top: 27px;
+  padding-left: 10px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 1400px;
+  max-height: 361px;
+  min-height: 316px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 55%, 90% 100%, 0% 100%);
+
+  display: flex;
+  flex-direction: row;
+
+  background: url("./components/Main/FifthSection/img/line.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  z-index: 1;
+}
+
+.rectangle__text {
+  max-width: 685px;
+  margin: 30px 0px 30px 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rectangle__text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.rectangle__text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-incline__rectangle {
+  position: relative;
+  width: 164px;
+  height: 37px;
+}
+
+.cube_top__rectangle {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 2;
+  width: 7px;
+  height: 7px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.cube_bottom__rectangle {
+  position: absolute;
+  top: 70%;
+  right: 25.2%;
+  z-index: 2;
+  width: 7px;
+  height: 7px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.link__rectangle {
+  position: absolute;
+  max-width: 164px;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 700;
+  color: #1c1d2b;
+}
+
+.warrior {
+  position: absolute;
+  right: 130px;
+  top: 0px;
+  z-index: 2;
+  width: 200px;
+  height: 361px;
 }
 
 /**/

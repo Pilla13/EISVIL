@@ -185,7 +185,7 @@ export default function SecondSection() {
             onMouseLeave={handleMouseUp}
           >
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
 
               <div
                 className="image-container"
@@ -223,7 +223,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock>
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__purrfectacademy} alt="Game image" />
 
               <CarouselTextBlock className="carousel__item" id="carousel__item">
@@ -249,7 +249,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__lastsurvivor} alt="Game image" />
 
               <CarouselTextBlock>
@@ -275,7 +275,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__chaindungeons} alt="Game image" />
 
               <CarouselTextBlock>
@@ -301,7 +301,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__homelesslife} alt="Game image" />
 
               <CarouselTextBlock>
@@ -327,7 +327,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__station} alt="Game image" />
 
               <CarouselTextBlock>
@@ -353,7 +353,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__taptap} alt="Game image" />
 
               <CarouselTextBlock>
@@ -379,7 +379,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__purrfectacademy} alt="Game image" />
 
               <CarouselTextBlock>
@@ -405,7 +405,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__lastsurvivor} alt="Game image" />
 
               <CarouselTextBlock>
@@ -431,7 +431,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__chaindungeons} alt="Game image" />
 
               <CarouselTextBlock>
@@ -457,7 +457,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__homelesslife} alt="Game image" />
 
               <CarouselTextBlock>
@@ -483,7 +483,7 @@ export default function SecondSection() {
             </CarouselBlock>
 
             <CarouselBlock className="carousel__item" id="carousel__item">
-              <div className="triangle"></div>
+              <div className="triangle2"></div>
               <CarouselImage src={banner__station} alt="Game image" />
 
               <CarouselTextBlock>
