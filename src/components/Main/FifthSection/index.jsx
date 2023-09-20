@@ -3,7 +3,7 @@ import warrior from "./img/warrior.png";
 export default function FifthSection() {
   return (
     <>
-      <div className="fifth_container">
+      <section className="fifth_container">
         <div className="relative_block">
           <div className="triangle">
             <h2>Карьера</h2>
@@ -33,7 +33,7 @@ export default function FifthSection() {
 
           <img src={warrior} className="warrior" alt="warrior" />
         </div>
-      </div>
+      </section>
     </>
   );
 }

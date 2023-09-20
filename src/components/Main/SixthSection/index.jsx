@@ -1,9 +1,9 @@
 import ds from "./img/discord.svg";
 import vk from "./img/vk.svg";
 import tw from "./img/tw.svg";
-import tg from "./img/tg.svg"
+import tg from "./img/tg.svg";
 import inl from "./img/in.svg";
-import fb from "./img/fb.svg"
+import fb from "./img/fb.svg";
 
 export default function SixthSection() {
   return (
@@ -14,47 +14,47 @@ export default function SixthSection() {
           className="sm__wrapper
             "
         >
-          <a href="#" className="sc__link">
-            <div className="sc__link-wrapper">
-              <p>DISCORD</p>
+          <div className="sc__link-wrapper">
+            <p className="sc__link__title">DISCORD</p>
+            <a href="#" className="sc__link">
               <img src={ds} className="ds" alt="Discord" />
-            </div>
-          </a>
+            </a>
+          </div>
 
-          <a href="#" className="sc__link">
-            <div className="sc__link-wrapper">
-              <p>VKONTAKTE</p>
+          <div className="sc__link-wrapper">
+            <p className="sc__link__title">VKONTAKTE</p>
+            <a href="#" className="sc__link">
               <img src={vk} className="vk" alt="VKонтакте" />
-            </div>
-          </a>
+            </a>
+          </div>
 
-          <a href="#" className="sc__link">
-            <div className="sc__link-wrapper">
-              <p>TELEGRAM</p>
+          <div className="sc__link-wrapper">
+            <p className="sc__link__title">TELEGRAM</p>
+            <a href="#" className="sc__link">
               <img src={tg} className="tg" alt="Telegram" />
-            </div>
-          </a>
+            </a>
+          </div>
 
-          <a href="#" className="sc__link">
-            <div className="sc__link-wrapper">
-              <p>LINKEDIN</p>
+          <div className="sc__link-wrapper">
+            <p className="sc__link__title">LINKEDIN</p>
+            <a href="#" className="sc__link">
               <img src={inl} className="inl" alt="LinkedIn" />
-            </div>
-          </a>
+            </a>
+          </div>
 
-          <a href="#" className="sc__link">
-            <div className="sc__link-wrapper">
-              <p>FACEBOOK</p>
+          <div className="sc__link-wrapper">
+            <p className="sc__link__title">FACEBOOK</p>
+            <a href="#" className="sc__link">
               <img src={fb} className="fb" alt="Facebook" />
-            </div>
-          </a>
+            </a>
+          </div>
 
-          <a href="#" className="sc__link">
-            <div className="sc__link-wrapper">
-              <p>TWITTER</p>
+          <div className="sc__link-wrapper">
+            <p className="sc__link__title">TWITTER</p>
+            <a href="#" className="sc__link">
               <img src={tw} className="tw" alt="Twitter" />
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </section>
     </>
