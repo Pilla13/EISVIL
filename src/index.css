@@ -548,36 +548,41 @@ summary::-webkit-details-marker {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 1400px;
+  height: 320px;
 }
 
 .social__wrapper h2 {
   margin-bottom: 50px;
 }
 
-.sc__link-wrapper{
+.sc__link-wrapper {
   position: relative;
+  width: 190px;
+  height: 111px;
 }
 
-.sc__link{
+.sc__link {
   position: absolute;
   width: 190px;
   height: 111px;
 
   background: #1d2434;
   clip-path: polygon(
-    50% 25%,
-    68% 0%,
+    50% 20%,
+    60% 0%,
     100% 0%,
     100% 75%,
     85% 100%,
     0% 100%,
-    0% 25%
+    0% 20%
   );
 }
 
 .sc__link__title {
   position: absolute;
   z-index: 2;
+  padding-left: 1rem;
   color: #fff;
   font-family: "Inter";
   font-size: 12px;
