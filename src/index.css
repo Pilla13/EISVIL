@@ -547,8 +547,33 @@ summary::-webkit-details-marker {
 .sm__wrapper {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  justify-content: space-between;
 }
+
+.social__wrapper h2 {
+  margin-bottom: 50px;
+}
+
+.sc__link{
+  position: relative;
+  width: 190px;
+  height: 111px;
+
+  background: #1D2434;
+  clip-path: polygon(50% 25%, 68% 0%, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0% 25%);
+}
+
+.sc__link img {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+}
+
+.sc__link:hover{
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(231, 64, 31, 1), rgba(239, 129, 27, 1));
+}
+
 
 .sm__block {
   margin-top: 60px;

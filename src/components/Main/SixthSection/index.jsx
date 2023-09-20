@@ -1,3 +1,4 @@
+import ds from "./img/discord.png";
 
 export default function SixthSection() {
   return (
@@ -8,12 +9,47 @@ export default function SixthSection() {
           className="sm__wrapper
             "
         >
-          <div className="sm__block discord"></div>
-          <div className="sm__block vk"></div>
-          <div className="sm__block tg"></div>
-          <div className="sm__block linkedin"></div>
-          <div className="sm__block facebook"></div>
-          <div className="sm__block twitter"></div>
+          <a href="#" className="sc__link">
+            <div className="sc__link-wrapper">
+              <p>DISCORD</p>
+              <img src={ds} alt="Discord" />
+            </div>
+          </a>
+
+          <a href="#" className="sc__link">
+            <div className="sc__link-wrapper">
+              <p>DISCORD</p>
+              <img src={ds} alt="Discord" />
+            </div>
+          </a>
+
+          <a href="#" className="sc__link">
+            <div className="sc__link-wrapper">
+              <p>DISCORD</p>
+              <img src={ds} alt="Discord" />
+            </div>
+          </a>
+
+          <a href="#" className="sc__link">
+            <div className="sc__link-wrapper">
+              <p>DISCORD</p>
+              <img src={ds} alt="Discord" />
+            </div>
+          </a>
+
+          <a href="#" className="sc__link">
+            <div className="sc__link-wrapper">
+              <p>DISCORD</p>
+              <img src={ds} alt="Discord" />
+            </div>
+          </a>
+
+          <a href="#" className="sc__link">
+            <div className="sc__link-wrapper">
+              <p>DISCORD</p>
+              <img src={ds} alt="Discord" />
+            </div>
+          </a>
         </div>
       </section>
     </>
