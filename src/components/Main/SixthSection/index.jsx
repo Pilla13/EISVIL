@@ -1,4 +1,9 @@
-import ds from "./img/discord.png";
+import ds from "./img/discord.svg";
+import vk from "./img/vk.svg";
+import tw from "./img/tw.svg";
+import tg from "./img/tg.svg"
+import inl from "./img/in.svg";
+import fb from "./img/fb.svg"
 
 export default function SixthSection() {
   return (
@@ -12,42 +17,42 @@ export default function SixthSection() {
           <a href="#" className="sc__link">
             <div className="sc__link-wrapper">
               <p>DISCORD</p>
-              <img src={ds} alt="Discord" />
+              <img src={ds} className="ds" alt="Discord" />
             </div>
           </a>
 
           <a href="#" className="sc__link">
             <div className="sc__link-wrapper">
-              <p>DISCORD</p>
-              <img src={ds} alt="Discord" />
+              <p>VKONTAKTE</p>
+              <img src={vk} className="vk" alt="VKонтакте" />
             </div>
           </a>
 
           <a href="#" className="sc__link">
             <div className="sc__link-wrapper">
-              <p>DISCORD</p>
-              <img src={ds} alt="Discord" />
+              <p>TELEGRAM</p>
+              <img src={tg} className="tg" alt="Telegram" />
             </div>
           </a>
 
           <a href="#" className="sc__link">
             <div className="sc__link-wrapper">
-              <p>DISCORD</p>
-              <img src={ds} alt="Discord" />
+              <p>LINKEDIN</p>
+              <img src={inl} className="inl" alt="LinkedIn" />
             </div>
           </a>
 
           <a href="#" className="sc__link">
             <div className="sc__link-wrapper">
-              <p>DISCORD</p>
-              <img src={ds} alt="Discord" />
+              <p>FACEBOOK</p>
+              <img src={fb} className="fb" alt="Facebook" />
             </div>
           </a>
 
           <a href="#" className="sc__link">
             <div className="sc__link-wrapper">
-              <p>DISCORD</p>
-              <img src={ds} alt="Discord" />
+              <p>TWITTER</p>
+              <img src={tw} className="tw" alt="Twitter" />
             </div>
           </a>
         </div>
