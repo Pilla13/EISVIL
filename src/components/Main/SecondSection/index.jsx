@@ -358,10 +358,10 @@ export default function SecondSection() {
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
-                  <div>
+                  <CarouselH5P>
                     <h5 className="h5_carousel">TAP TAP ARENA</h5>
                     <p className="p_carousel">Приятной игры</p>
-                  </div>
+                  </CarouselH5P>
 
                   <CarouselIconsWrapper>
                     <a link="#">
@@ -384,10 +384,10 @@ export default function SecondSection() {
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
-                  <div>
+                  <CarouselH5P>
                     <h5 className="h5_carousel">PURRFECT ACADEMY</h5>
                     <p className="p_carousel">Приятной игры</p>
-                  </div>
+                  </CarouselH5P>
 
                   <CarouselIconsWrapper>
                     <a link="#">
@@ -410,10 +410,10 @@ export default function SecondSection() {
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
-                  <div>
+                  <CarouselH5P>
                     <h5 className="h5_carousel">LAST SURVIVOR</h5>
                     <p className="p_carousel">Приятной игры</p>
-                  </div>
+                  </CarouselH5P>
 
                   <CarouselIconsWrapper>
                     <a link="#">
@@ -436,10 +436,10 @@ export default function SecondSection() {
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
-                  <div>
+                  <CarouselH5P>
                     <h5 className="h5_carousel">CHAIN DUNGEONS</h5>
                     <p className="p_carousel">Приятной игры</p>
-                  </div>
+                  </CarouselH5P>
 
                   <CarouselIconsWrapper>
                     <a link="#">
@@ -462,10 +462,10 @@ export default function SecondSection() {
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
-                  <div>
+                  <CarouselH5P>
                     <h5 className="h5_carousel">HOMELESS LIFE</h5>
                     <p className="p_carousel">Приятной игры</p>
-                  </div>
+                  </CarouselH5P>
 
                   <CarouselIconsWrapper>
                     <a link="#">
@@ -488,10 +488,10 @@ export default function SecondSection() {
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
-                  <div>
+                  <CarouselH5P>
                     <h5 className="h5_carousel">STATION</h5>
                     <p className="p_carousel">Приятной игры</p>
-                  </div>
+                  </CarouselH5P>
 
                   <CarouselIconsWrapper>
                     <a link="#1">
