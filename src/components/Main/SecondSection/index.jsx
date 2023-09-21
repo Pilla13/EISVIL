@@ -51,16 +51,15 @@ export default function SecondSection() {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(null);
   const [scrollLeft, setScrollLeft] = useState(0);
-  const [numButtons, setNumButtons] = useState(0); // Добавляем состояние для количества кнопок
+  const [numButtons, setNumButtons] = useState(0);
   const [activeButtonIndex, setActiveButtonIndex] = useState(0);
   const carouselRef = useRef(null);
 
-  const itemWidth = 358; // Замените на ширину одной картинки в вашей карусели
-  const itemsToScroll = 4; // Количество элементов для прокрутки
+  const itemWidth = 358;
+  const itemsToScroll = 4;
 
   useEffect(() => {
     if (carouselRef.current) {
-      // Инициализируем scrollLeft и кол-во кнопок после загрузки компонента
       setScrollLeft(carouselRef.current.scrollLeft);
       setNumButtons(
         Math.ceil(carouselRef.current.scrollWidth / (itemWidth * itemsToScroll))
@@ -224,7 +223,19 @@ export default function SecondSection() {
 
             <CarouselBlock>
               <div className="triangle2"></div>
-              <CarouselImage src={banner__purrfectacademy} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__purrfectacademy}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock className="carousel__item" id="carousel__item">
                 <CarouselInsideBlock>
@@ -250,7 +261,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__lastsurvivor} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__lastsurvivor}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -276,7 +299,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__chaindungeons} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__chaindungeons}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -302,7 +337,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__homelesslife} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__homelesslife}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -328,7 +375,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__station} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__station}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -354,7 +413,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__taptap} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__taptap}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -380,7 +451,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__purrfectacademy} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__purrfectacademy}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -406,7 +489,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__lastsurvivor} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__lastsurvivor}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -432,7 +527,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__chaindungeons} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__chaindungeons}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -458,7 +565,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__homelesslife} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__homelesslife}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
@@ -484,7 +603,19 @@ export default function SecondSection() {
 
             <CarouselBlock className="carousel__item" id="carousel__item">
               <div className="triangle2"></div>
-              <CarouselImage src={banner__station} alt="Game image" />
+
+              <div
+                className="image-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CarouselImage
+                  src={banner__station}
+                  alt="Game image"
+                  className={`hover-image ${isHovered ? "hovered" : ""}`}
+                />
+                {isHovered && <button className="hover-button">Button</button>}
+              </div>
 
               <CarouselTextBlock>
                 <CarouselInsideBlock>
