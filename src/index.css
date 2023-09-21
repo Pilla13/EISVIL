@@ -548,8 +548,6 @@ summary::-webkit-details-marker {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1400px;
-  height: 320px;
 }
 
 .social__wrapper h2 {
