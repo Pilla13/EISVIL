@@ -1,9 +1,9 @@
 import { styled } from "styled-components";
-import banner from "./img/banner.jpg";
+import banner2 from "./img/bannr2.png"
 
 const StyledFirstSection = styled.section`
   height: 760px;
-  background-image: url(${banner});
+  background-image: url(${banner2});
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
