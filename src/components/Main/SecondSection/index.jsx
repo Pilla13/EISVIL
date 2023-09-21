@@ -199,11 +199,7 @@ export default function SecondSection() {
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
                 {isHovered && (
-                  <div className="btn-incline btn-incline__hover-button">
-                    <div className="cube_top__hover-button"></div>
-                    <button className="link-hover-button">Подробнее</button>
-                    <div className="cube_bottom__hover-button"></div>
-                  </div>
+                  <button className="hover-button">Подробнее</button>
                 )}
               </div>
 

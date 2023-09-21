@@ -7,6 +7,8 @@ const CarouselBlock = styled.li`
   display: flex;
   flex-direction: column;
 
+  transition: 0.3s;
+
   /* scroll-snap-align: start; */
 `;
 

@@ -35,7 +35,7 @@ const Carousel = styled.ul`
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  transition: all 0.2s;
+  transition: all 0.3s;
 
   will-change: transform;
   user-select: none;
