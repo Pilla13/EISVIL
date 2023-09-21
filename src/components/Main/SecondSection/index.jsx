@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
+import "../../../styled/Main/StyledSecondSection/index.css";
+
 import StyledSecondSection from "../../../styled/Main/StyledSecondSection";
 import banner__taptap from "../SecondSection/img/banner__taptap.jpg";
 import banner__purrfectacademy from "../SecondSection/img/banner_purrfect-academy.png";
@@ -19,8 +21,8 @@ import CarouselTextBlock from "../../../styled/Main/StyledSecondSection/Carousel
 import CarouselInsideBlock from "../../../styled/Main/StyledSecondSection/Carousel/CarouselInsideBlock";
 import CarouselH5P from "../../../styled/Main/StyledSecondSection/Carousel/CarouselH5P";
 import CarouselIconsWrapper from "../../../styled/Main/StyledSecondSection/Carousel/CarouselIconsWrapper";
-import CarouselDotWrapper from "../../../styled/Main/StyledSecondSection/Carousel/CarouselDotWrapper";
-import CarouselDot from "../../../styled/Main/StyledSecondSection/Carousel/CarouselDot";
+// import CarouselDotWrapper from "../../../styled/Main/StyledSecondSection/Carousel/CarouselDotWrapper";
+// import CarouselDot from "../../../styled/Main/StyledSecondSection/Carousel/CarouselDot";
 
 export default function SecondSection() {
   // const [isDragging, setIsDragging] = useState(false);
@@ -55,7 +57,7 @@ export default function SecondSection() {
   const [activeButtonIndex, setActiveButtonIndex] = useState(0);
   const carouselRef = useRef(null);
 
-  const itemWidth = 358;
+  const itemWidth = 357;
   const itemsToScroll = 4;
 
   useEffect(() => {
@@ -196,7 +198,13 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <div className="btn-incline btn-incline__hover-button">
+                    <div className="cube_top__hover-button"></div>
+                    <button className="link-hover-button">Подробнее</button>
+                    <div className="cube_bottom__hover-button"></div>
+                  </div>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -234,7 +242,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock className="carousel__item" id="carousel__item">
@@ -272,7 +282,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -310,7 +322,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -348,7 +362,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -386,7 +402,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -424,7 +442,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -462,7 +482,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -500,7 +522,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -538,7 +562,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -576,7 +602,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
@@ -614,7 +642,9 @@ export default function SecondSection() {
                   alt="Game image"
                   className={`hover-image ${isHovered ? "hovered" : ""}`}
                 />
-                {isHovered && <button className="hover-button">Button</button>}
+                {isHovered && (
+                  <button className="hover-button">Подробнее</button>
+                )}
               </div>
 
               <CarouselTextBlock>
