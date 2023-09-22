@@ -419,6 +419,17 @@ summary::-webkit-details-marker {
   margin: 0 auto;
 }
 
+/**/
+
+/* .accordion__image {
+  width: 328px;
+  height: 218px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 328px 218px;
+  transition: 0.3s;
+} */
+
 /* ПЯТАЯ СЕКЦИЯ */
 
 .fifth_container {
