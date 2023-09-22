@@ -1,3 +1,5 @@
+import "../../../styled/Main/StyledSixthSection/index.css"
+
 import ds from "./img/discord.svg";
 import vk from "./img/vk.svg";
 import tw from "./img/tw.svg";
