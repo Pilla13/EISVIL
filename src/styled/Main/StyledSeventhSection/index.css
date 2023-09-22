@@ -55,16 +55,74 @@
 }
 
 .mailing__img {
-    width: 1400px;
-    height: 318px;
+  width: 1400px;
+  height: 318px;
 
-    background: url("../../../components//Main/SeventhSection/img/smi.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 1400px 318px;
+  background: url("../../../components//Main/SeventhSection/img/smi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 1400px 318px;
 }
 
-.mailing__img img {
-  width: 1398px;
-  height: 318px;
+.mailing__btn-form {
+    width: 1400px;
+    height: 318px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+}
+
+.link {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  clip-path: polygon(
+    10% 0,
+    100% 0,
+    100% 30%,
+    100% 55%,
+    90% 100%,
+    30% 100%,
+    0 100%,
+    0% 45%
+  );
+}
+
+.btn-incline__mailing {
+  position: relative;
+  width: 270px;
+  height: 55px;
+  margin-right: 12px;
+  margin-bottom: 15px;
+}
+
+.cube_top__mailing {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 2;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.cube_bottom__mailing {
+  position: absolute;
+  top: 80%;
+  right: 6%;
+  z-index: 2;
+  width: 9px;
+  height: 9px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.link__mailing {
+  position: absolute;
+  max-width: 270px;
+  padding: 17px 55px;
+  background: linear-gradient(to bottom, #e32521, #ef811b);
 }

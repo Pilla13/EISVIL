@@ -17,7 +17,15 @@ export default function SeventhSection() {
           </div>
 
           <div className="mailing__img">
-            {/* <img src={smi} alt="Mailing" /> */}
+            <div className="mailing__btn-form">
+              <div className="btn-incline__mailing">
+                <div className="cube_top__mailing"></div>
+                <a href="#1" className="link link__mailing">
+                  Заполнить форму
+                </a>
+                <div className="cube_bottom__mailing"></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -522,7 +522,7 @@ summary::-webkit-details-marker {
   font-family: "Inter";
   font-size: 12px;
   font-weight: 700;
-  color: #1c1d2b;
+  color: #1c1d2b !important;
 }
 
 .warrior {
