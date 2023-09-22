@@ -46,8 +46,8 @@
 
 .mailing__text p span {
   background: linear-gradient(180deg, #e32521 0%, #ef811b 51.04%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Montserrat";
   font-size: 20px;
