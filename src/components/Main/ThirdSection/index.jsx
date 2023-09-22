@@ -97,12 +97,12 @@ import React, { useEffect, useState } from "react";
 import StyledThirdSection from "../../../styled/Main/StyledThirdSection";
 import plus from "../ThirdSection/img/plus.png";
 import minus from "../ThirdSection/img/minus.png";
-import img1 from "../ThirdSection/img/2D.png";
-import img2 from "../ThirdSection/img/dev.png";
-import img3 from "../ThirdSection/img/3D.png";
-import img4 from "../ThirdSection/img/GUI.png";
-import img5 from "../ThirdSection/img/anima.png";
-import img6 from "../ThirdSection/img/local.png";
+import img1 from "../ThirdSection/img/2D.svg";
+import img2 from "../ThirdSection/img/dev.svg";
+import img3 from "../ThirdSection/img/3D.svg";
+import img4 from "../ThirdSection/img/GUI.svg";
+import img5 from "../ThirdSection/img/anima.svg";
+import img6 from "../ThirdSection/img/local.svg";
 
 function AccordionItem({ item, isActive, onClick }) {
   return (

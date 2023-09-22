@@ -30,6 +30,7 @@
   position: absolute;
   width: 190px;
   height: 111px;
+  opacity: 0.5;
 }
 
 .sc__link__title {
@@ -54,6 +55,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 190px 111px;
+  transition: 0.3s;
+}
+
+.sc__link-wrapper:hover .sc__link {
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .sm__block {
