@@ -2,6 +2,7 @@
   max-width: 1400px;
   height: 520px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 
 .seventhsection h2 {
@@ -12,7 +13,58 @@
 }
 
 .mailing__wrapper {
-    max-width: 1290px;
-    margin: 0 auto;
+  max-width: 1400px;
+  height: 407px;
+  margin: 0 auto;
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background: url("../../../components/Main/SeventhSection/img/smi2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 1400px 407px;
 }
 
+.mailing__text {
+  width: 1400px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.mailing__text p {
+  max-width: 662px;
+  padding-top: 18px;
+  padding-left: 20px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mailing__text p span {
+  background: linear-gradient(180deg, #e32521 0%, #ef811b 51.04%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mailing__img {
+    width: 1400px;
+    height: 318px;
+
+    background: url("../../../components//Main/SeventhSection/img/smi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1400px 318px;
+}
+
+.mailing__img img {
+  width: 1398px;
+  height: 318px;
+}
