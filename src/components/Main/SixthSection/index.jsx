@@ -1,10 +1,10 @@
 import "../../../styled/Main/StyledSixthSection/index.css"
 
-import ds from "./img/discord.svg";
+import ds from "./img/ds.svg";
 import vk from "./img/vk.svg";
 import tw from "./img/tw.svg";
 import tg from "./img/tg.svg";
-import inl from "./img/in.svg";
+import inl from "./img/inl.svg";
 import fb from "./img/fb.svg";
 
 export default function SixthSection() {
