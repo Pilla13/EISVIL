@@ -15,11 +15,15 @@ export default function Header() {
           <nav className="styledNav">
             <div className="styledNav__gradient-left"></div>
 
+            <div className="styledNav__border"></div>
+
             <li className="styledNav__wrapper">
               <a href="#" className="styledHav__a">
                 НАШИ ИГРЫ
               </a>
             </li>
+
+            <div className="styledNav__border"></div>
 
             <li className="styledNav__wrapper">
               <a href="#" className="styledHav__a">
@@ -27,11 +31,15 @@ export default function Header() {
               </a>
             </li>
 
+            <div className="styledNav__border"></div>
+
             <li className="styledNav__wrapper">
               <a href="#" className="styledHav__a">
                 ИЗДАТЕЛЬСТВО
               </a>
             </li>
+
+            <div className="styledNav__border"></div>
 
             <li className="styledNav__wrapper">
               <a href="#" className="styledHav__a">
@@ -39,11 +47,15 @@ export default function Header() {
               </a>
             </li>
 
+            <div className="styledNav__border"></div>
+
             <li className="styledNav__wrapper">
               <a href="#" className="styledHav__a">
                 КОНТАКТЫ
               </a>
             </li>
+
+            <div className="styledNav__border"></div>
 
             <div className="styledNav__gradient-right"></div>
           </nav>
