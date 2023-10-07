@@ -12,53 +12,54 @@ export default function Header() {
             <img src={logo} alt="logo" />{" "}
           </a>
 
-          <nav className="styledNav">
+          <div className="nav__wrapper">
             <div className="styledNav__gradient-left"></div>
 
-            <div className="styledNav__border"></div>
+            <nav className="styledNav">
+              <div className="styledNav__border"></div>
 
-            <li className="styledNav__wrapper">
-              <a href="#" className="styledHav__a">
-                НАШИ ИГРЫ
-              </a>
-            </li>
+              <li className="styledNav__link-wrapper">
+                <a href="#" className="styledHav__a">
+                  НАШИ ИГРЫ
+                </a>
+              </li>
 
-            <div className="styledNav__border"></div>
+              <div className="styledNav__border"></div>
 
-            <li className="styledNav__wrapper">
-              <a href="#" className="styledHav__a">
-                УСЛУГИ
-              </a>
-            </li>
+              <li className="styledNav__link-wrapper">
+                <a href="#" className="styledHav__a">
+                  УСЛУГИ
+                </a>
+              </li>
 
-            <div className="styledNav__border"></div>
+              <div className="styledNav__border"></div>
 
-            <li className="styledNav__wrapper">
-              <a href="#" className="styledHav__a">
-                ИЗДАТЕЛЬСТВО
-              </a>
-            </li>
+              <li className="styledNav__link-wrapper">
+                <a href="#" className="styledHav__a">
+                  ИЗДАТЕЛЬСТВО
+                </a>
+              </li>
 
-            <div className="styledNav__border"></div>
+              <div className="styledNav__border"></div>
 
-            <li className="styledNav__wrapper">
-              <a href="#" className="styledHav__a">
-                КАРЬЕРА
-              </a>
-            </li>
+              <li className="styledNav__link-wrapper">
+                <a href="#" className="styledHav__a">
+                  КАРЬЕРА
+                </a>
+              </li>
 
-            <div className="styledNav__border"></div>
+              <div className="styledNav__border"></div>
 
-            <li className="styledNav__wrapper">
-              <a href="#" className="styledHav__a">
-                КОНТАКТЫ
-              </a>
-            </li>
+              <li className="styledNav__link-wrapper">
+                <a href="#" className="styledHav__a">
+                  КОНТАКТЫ
+                </a>
+              </li>
 
-            <div className="styledNav__border"></div>
-
+              <div className="styledNav__border"></div>
+            </nav>
             <div className="styledNav__gradient-right"></div>
-          </nav>
+          </div>
 
           <div className="headerLanguageButton">
             Ru <img src={arrow} alt="arrow" />

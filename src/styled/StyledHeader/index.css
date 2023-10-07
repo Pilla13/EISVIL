@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+.nav__wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
 .styledNav {
   display: flex;
 }
@@ -34,12 +39,12 @@
   border-image-slice: 1;
 }
 
-.styledNav__wrapper {
+.styledNav__link-wrapper {
   padding: 24px 0px 18px 0px;
   margin: 0px 2px 2px 2px;
 }
 
-.styledNav__wrapper:hover {
+.styledNav__link-wrapper:hover {
   background: linear-gradient(
     180deg,
     rgba(239, 129, 27, 0) 46.81%,
@@ -64,10 +69,12 @@
 .styledNav__gradient-right {
   width: 85px;
   height: 50px;
+  margin-bottom: 2px;
   opacity: 0.3;
 }
 
 .styledNav__gradient-left {
+  margin-right: 2px;
   background: linear-gradient(
     335deg,
     rgba(239, 129, 27, 0.7) 0%,
@@ -76,6 +83,7 @@
 }
 
 .styledNav__gradient-right {
+  margin-left: 2px;
   background: linear-gradient(
     35deg,
     rgba(239, 129, 27, 0.7) 0%,
