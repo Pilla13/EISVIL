@@ -1,10 +1,18 @@
 .styledHeader {
-  padding: 9px 0;
-  border-bottom: 0.5px solid #fff;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.04) 15.71%,
+    rgba(255, 255, 255, 0.24) 30.52%,
+    rgba(255, 255, 255, 0.36) 50.14%,
+    rgba(255, 255, 255, 0.24) 69.29%,
+    rgba(255, 255, 255, 0.04) 87.86%
+  );
+  border-image-slice: 1;
 }
 
-.headerContainer{
-  max-width: 1400px;
+.headerContainer {
+  max-width: 1290px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -14,15 +22,33 @@
 
 .styledNav {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 535px;
-  gap: 20px;
 }
 
+.styledNav__wrapper {
+  border-right: 1px solid transparent;
+  border-image: linear-gradient(
+    180deg,
+    rgba(69, 72, 87, 0) 17.61%,
+    #585b6a 100%
+  );
+  border-image-slice: 1;
 
-.headerLanguageButton{
+  padding-top: 24px;
+  padding-bottom: 18px;
+}
+
+.styledHav__a {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 22px;
+}
+
+.styledHav__a::after {
+}
+
+.headerLanguageButton {
   color: #fff;
   text-align: center;
 }
-
